@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#fileInput {
+    margin: 10px;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#devices, #messages {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#devices li, #messages li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.device {
+    cursor: pointer;
+}
+
+.device:hover {
+    background-color: #ddd;
+}
